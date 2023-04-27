@@ -14,15 +14,19 @@
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
+    "esModuleInterop": true,
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "ES2022",
     "module": "ES2022",
     "useDefineForClassFields": false,
-    "lib": [
-      "ES2022",
-      "dom"
-    ]
+    "lib": ["ES2022", "dom"],
+    "paths": {
+      "@ui": ["src/app/shared/ui"],
+      "@ui/*": ["src/app/shared/ui/*"],
+      "@clients-ui/*": ["src/app/clients/ui/*"],
+      "@models": ["src/app/core/models"]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

@@ -1,0 +1,9 @@
+# Ignore artifacts: 
+dist
+node_modules
+.angular
+.husky
+.vscode
+
+# Ignore all HTML files:
+*.html 
