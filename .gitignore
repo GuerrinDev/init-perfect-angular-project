@@ -6,6 +6,7 @@
 /out-tsc
 /bazel-out
 .eslintcache
+.scannerwork/
 
 # Node
 /node_modules
